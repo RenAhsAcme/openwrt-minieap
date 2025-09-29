@@ -1,12 +1,5 @@
-# minieap for OpenWrt
+# MiniEAP for OpenWrt
 
-## Build
+**该 Repository 是从 KumaTea/openwrt-minieap Fork而来。已在 SYSU (Guangzhou Southern) 验证了可靠性。**
 
-First download [OpenWrt SDK](https://downloads.openwrt.org/) for your device.
-
-```sh
-cd /path/to/your/sdk
-git clone https://github.com/ysc3839/openwrt-minieap.git package/minieap
-make menuconfig # choose `minieap` in section `Network`
-make package/minieap/compile V=s
-```
+该 Repository 需配合 [RenAhsAcme/SYSU-Network-Solution](https://github.com/RenAhsAcme/SYSU-Network-Solution) 使用。请转到该URL查看如何使用。
